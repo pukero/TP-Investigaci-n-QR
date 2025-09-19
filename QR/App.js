@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.title}>Generador de QR</Text>
       <View style={styles.qrContainer}>
-        <QRCode value="Escaneaste el QR correctamente" size={220} />
+        <QRCode value="https://campus.ort.edu.ar/grupo/25240/desarrollo-de-aplicaciones-informaticas-5-2025-ni5b-alm/" size={220} />
       </View>
       <Text style={styles.infoText}>Escanea este QR con otro dispositivo</Text>
     </View>
